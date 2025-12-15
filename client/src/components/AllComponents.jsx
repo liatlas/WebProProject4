@@ -23,10 +23,7 @@ export function NotificationToast({ message, type, onClose }) {
     );
 }
 
-// ============================================================================
-// MATCHMAKING SCREEN
-// ============================================================================
-export function Matchmaking({ boardSize, gameMode, onCancel }) {
+xport function Matchmaking({ boardSize, gameMode, onCancel }) {
     return (
         <div className="matchmaking-screen">
             <div className="matchmaking-content">
